@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/new_file.css" />
+		<script type="text/javascript" src="js/jquery1.8.2.js"></script>
+		<title>蜂行天下</title>
+	</head>
+	<body>
+		<!--顶部 start-->
+		<div class="global-sitenav">
+			<div class="site-inner">
+				<div id="userInfo">
+					<div class="site-login-box">
+						<a href="javascript:;" onclick="showlogin();">登陆</a>
+						<span class="spacer">|</span>
+						<a href="" class="regsiter">注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--顶部 end-->
+		<!--logo/搜索 start-->
+		<div class="global-header">
+			<div class="inner-header">
+				<div class="logo">
+					<a href="" target="_blank">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="searchbox">
+					<form method="get" action="" id="myForm">
+						<ul class="search-Tab clearfix" id="sch_list">
+							<li class="cur">活动</li>
+							<li>旅行</li>
+							<li>文章</li>
+							<li>帖子</li>
+							<li>用户</li>
+							<li>更多</li>
+						</ul>
+						<div class="search-select clearfix">
+							<div class="search-L" id="schd_prompt">
+								<input type="text" class="search-input" value="" name="keyword" id="seach_keyword" autocomplete="off" placeholder="输入目的地、景点名等关键词" style="color: rgb(128,128,128);" />
+							</div>
+							<a href="javascript:;" class="search-R" id="mySubmit">搜索</a>
+						</div>
+					</form>
+				</div>
+				<div class="downapp">
+					<span>APP 下载</span>
+				</div>
+			</div>
+		</div>
+		<!--顶部/搜索 end-->
+		<!--导航条 start-->
+		<div class="nav-box">
+			<div class="nav-main">
+				<ul>
+					<li class="li1">
+				      <a href="">首页</a>
+			        </li>
+			        <li>
+			          <a href="">活动</a>
+			        </li>
+			        <li>
+			          <a href="">资讯</a>
+			        </li>
+			        <li>
+				      <a href="">论坛</a>
+			        </li>
+			        <li>
+				      <a href="">游戏攻略</a>
+			        </li>
+			        <li>
+				      <a href="">APP</a>
+			        </li>
+			        <li>
+				      <a href="">保险</a>
+			        </li>
+			        <li>
+				      <a href="">装备</a>
+			        </li>
+			        <li>
+				      <a href="">福利</a>
+			        </li>
+				</ul>
+			</div>
+		</div>
+		<!--导航条 end-->
+		<!--焦点图 start-->
+		<div class="focusbox" id="focusbox">
+			<div class="focus" id="focus">
+				<ul>
+				  <li>
+					<a href="" target="_blank">
+						<img src="img/p1.jpg" alt="">
+					</a>
+				  </li>
+				  <li>
+					<a href="" target="_blank">
+						<img src="img/p2.jpg" alt="">
+					</a>
+				  </li>
+				  <li>
+					<a href="" target="_blank">
+						<img src="img/p3.jpg" alt="">
+					</a>
+				  </li>
+			  </ul>
+			  <div class="focus-point" id="focus-point">
+			  </div>
+			</div>
+			<!--侧边栏导航 start-->
+			<!--<div class="silder-nav">
+				<div class="snav-cont">
+					<ul class="tab fl">
+						<li class="l1">
+							<span>徒步露营</span>
+						</li>
+						<li class="l2">
+							<span>徒步露营</span>
+						</li>
+						<li class="l3">
+							<span>徒步露营</span>
+						</li>
+						<li class="l4">
+							<span>徒步露营</span>
+						</li>
+						<li class="l5">
+							<span>徒步露营</span>
+						</li>
+						<li class="l6">
+							<span>徒步露营</span>
+						</li>
+						<li class="l7">
+							<span>徒步露营</span>
+						</li>
+						<li class="l8">
+							<span>徒步露营</span>
+						</li>
+					</ul>
+					<div class="tabcon fl">
+						
+					</div>
+				</div>
+			</div>-->
+			<!--侧边栏导航 end-->
+		</div>
+		<!--焦点图 end-->
+		<!--精选推荐 start-->
+		<div class="row mt20">
+			<div class="publi-tit">
+				<h2>
+					<a href="" target="_blank">精选推荐</a>
+                </h2>
+			</div>
+			<div class="hot-con">
+				<div class="hcon-L fl">
+					<div class="h_area">
+						<a href="" target="_blank" title="">
+							<h3>处处都有故事的古老王国吴哥</h3>
+							<span>古老而又神秘的国家吸引着世界各地的游人前往</span>
+						</a>
+						<a href="" target="_blank" title="">
+							<h3>踏青好时节HOYA四月影赛</h3>
+							<span>天晴山雪明城廊，水涨江流近驿亭</span>
+						</a>
+						<a href="" target="_blank" title="">
+							<h3>游诗情画意听铁马雄风</h3>
+							<span>寻觅古战场乐山&nbsp;老乐山应运而生</span>
+						</a>
+					</div>
+					<div class="hot-trave">
+						<div class="htr_tit">
+							<h3>
+								<span class="text">
+									<a href="" target="_blank">户外达人</a>
+								</span>
+							</h3>
+						</div>
+						<div class="htr_con">
+							<ul>
+								<li>
+									<a href="" target="_blank">
+										<img src="img/trav1.jpg" alt="">
+									    <span class="pic-intro">
+									    	  <span class="pic-intro-tit">
+									    	  	<em>最熟悉的美丽瞬间</em>
+									    	  	<span>2016-05-11&nbsp;&nbsp;651阅读</span>
+									    	    <span class="pic-intr-body">美丽的瞬间也经常出现在我们最熟悉的地方</span>
+									    	  </span>						    	  
+									    </span>
+									</a>
+								</li>
+								<li>
+									<a href="" target="_blank">
+										<img src="img/trav2.jpg" alt="">
+										<span class="pic-intro">
+									    	  <span class="pic-intro-tit">
+									    	  	<em>千变万化的魔鬼城美景</em>
+									    	  	<span>2016-05-11&nbsp;&nbsp;651阅读</span>
+									    	    <span class="pic-intr-body">五一假期前往奇台魔鬼城,美翻了有木有？</span>
+									    	  </span>						    	  
+									    </span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="hcon-mid fl">
+					<ul>
+						<li>
+							<a href="" target="_blank" title="">
+								<h4>快乐在我走过的地方怒放——记2015八月北疆行</h4>
+								<div class="mdown">
+									<div class="mimg fl">
+										<img src="img/newst.jpg" alt="">
+									</div>
+									<div class="m-text fl">
+										把旅行中的点滴存进我的蜂窝保鲜柜 让幸福 在这 里永 存…… 让快乐 在我走过的地方怒放…… 独库公路 巴音布鲁克天鹅湖景区九曲十八弯 那拉提空中花园 赛里木湖 果子沟 禾木 五彩滩 ，因为...
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank" title="">
+								<h4>快乐在我走过的地方怒放——记2015八月北疆行</h4>
+								<div class="mdown">
+									<div class="mimg fl">
+										<img src="img/newst.jpg" alt="">
+									</div>
+									<div class="m-text fl">
+										把旅行中的点滴存进我的蜂窝保鲜柜 让幸福 在这 里永 存…… 让快乐 在我走过的地方怒放…… 独库公路 巴音布鲁克天鹅湖景区九曲十八弯 那拉提空中花园 赛里木湖 果子沟 禾木 五彩滩 ，因为...
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank" title="">
+								<h4>快乐在我走过的地方怒放——记2015八月北疆行</h4>
+								<div class="mdown">
+									<div class="mimg fl">
+										<img src="img/newst.jpg" alt="">
+									</div>
+									<div class="m-text fl">
+										把旅行中的点滴存进我的蜂窝保鲜柜 让幸福 在这 里永 存…… 让快乐 在我走过的地方怒放…… 独库公路 巴音布鲁克天鹅湖景区九曲十八弯 那拉提空中花园 赛里木湖 果子沟 禾木 五彩滩 ，因为...
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank" title="">
+								<h4>快乐在我走过的地方怒放——记2015八月北疆行</h4>
+								<div class="mdown">
+									<div class="mimg fl">
+										<img src="img/newst.jpg" alt="">
+									</div>
+									<div class="m-text fl">
+										把旅行中的点滴存进我的蜂窝保鲜柜 让幸福 在这 里永 存…… 让快乐 在我走过的地方怒放…… 独库公路 巴音布鲁克天鹅湖景区九曲十八弯 那拉提空中花园 赛里木湖 果子沟 禾木 五彩滩 ，因为...
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank" title="">
+								<h4>快乐在我走过的地方怒放——记2015八月北疆行</h4>
+								<div class="mdown">
+									<div class="mimg fl">
+										<img src="img/newst.jpg" alt="">
+									</div>
+									<div class="m-text fl">
+										把旅行中的点滴存进我的蜂窝保鲜柜 让幸福 在这 里永 存…… 让快乐 在我走过的地方怒放…… 独库公路 巴音布鲁克天鹅湖景区九曲十八弯 那拉提空中花园 赛里木湖 果子沟 禾木 五彩滩 ，因为...
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank" title="">
+								<h4>快乐在我走过的地方怒放——记2015八月北疆行</h4>
+								<div class="mdown">
+									<div class="mimg fl">
+										<img src="img/newst.jpg" alt="">
+									</div>
+									<div class="m-text fl">
+										把旅行中的点滴存进我的蜂窝保鲜柜 让幸福 在这 里永 存…… 让快乐 在我走过的地方怒放…… 独库公路 巴音布鲁克天鹅湖景区九曲十八弯 那拉提空中花园 赛里木湖 果子沟 禾木 五彩滩 ，因为...
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank" title="">
+								<h4>快乐在我走过的地方怒放——记2015八月北疆行</h4>
+								<div class="mdown">
+									<div class="mimg fl">
+										<img src="img/newst.jpg" alt="">
+									</div>
+									<div class="m-text fl">
+										把旅行中的点滴存进我的蜂窝保鲜柜 让幸福 在这 里永 存…… 让快乐 在我走过的地方怒放…… 独库公路 巴音布鲁克天鹅湖景区九曲十八弯 那拉提空中花园 赛里木湖 果子沟 禾木 五彩滩 ，因为...
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<a href="" target="_blank" class="m-more">更多&gt;&gt;</a>
+				</div>
+				<div class="hcon-R fl">
+					<div class="hc-R-tit">
+						<ul>
+							<li class="cur">
+								<a href="javacript:;" target="_self">品牌导航</a>
+							</li>
+							<li class="sp1">
+								<a href="javacript:;" target="_self">装备聚焦</a>
+							</li>
+							<li class="sp1">
+								<a href="javacript:;" target="_self">推荐轨迹</a>
+							</li>
+						</ul>
+					</div>
+					<div class="hc-R-con">
+						<div class="hc-R-item active">
+							<a href="" target="_blank">
+								<img src="img/hconr1.jpg" alt="">
+							</a>
+						</div>
+						<div class="hc-R-item">
+							<a href="" target="_blank">
+								<img src="img/hconr2.jpg" alt="">
+							</a>
+						</div>
+						<div class="hc-R-item">
+							<a href="" target="_blank">
+								<img src="img/hconr1.jpg" alt="">
+							</a>
+						</div>						
+					</div>
+					<div class="ad"style="margin-top: 9px;">
+				      <a href="" target="_blank">
+					    <img src="img/30090.jpg" width="300px" height="90px">
+				      </a>
+			        </div>
+				</div>
+			</div>		
+		</div>
+		<!--精选推荐 end-->
+		<!--团购推荐 start-->
+		<div class="row mt20">
+			<div class="hot-group">
+				<div class="h-group-tit">
+					<a href="" class="h-more">更多&gt;&gt;</a>
+					<ul class="hot-tab">
+						<li class="cur">当季热门</li>
+						<li>精品活动</li>
+						<li>推荐旅行</li>
+						<li>绿野中国</li>
+					</ul>
+				</div>
+				<div class="h-group-con">
+					<div class="hg-con-L fl">
+						<div class="hg-con-tab jswitch" id="tab_1">
+							<ul>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="hg-con-tab" id="tab_2">
+							<ul>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/hconr2.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="hg-con-tab jswitch" id="tab_3">
+							<ul>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/hconr1.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="hg-con-tab jswitch" id="tab_4">
+							<ul>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="Photobox">
+										<a href="" target="_blank" title="">
+											<img src="img/280.jpg" alt="" />
+										</a>
+									</div>
+									<div class="con-text">
+										<p class="c-text">
+											<a href="" target="_blank">【蜂行天下】中都原始草原、那达慕草原、草原天路</a>
+										</p>
+										<p class="c-price">
+											<a href="" target="_blank" class="fr">守护</a>
+											<span class="fl">
+												￥
+												<em>5000</em>
+												<i>起</i>
+											</span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="hg-con-R fr">
+						<div class="hg-con-rem">
+							<a href="" target="_blank">
+								<img src="img/jh.jpg" alt="">
+							</a> 
+						</div>
+						<div class="hg-con-item">
+							<a href="" target="_blank">发布活动</a>
+							<a href="" target="_blank">达人游记</a>
+							<a href="" target="_blank">发布活动</a>
+							<a href="" target="_blank">领队申请</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--团购推荐 end-->
+		<!--论坛精华 start-->
+		<div class="row mt20">
+			<div class="publi-tit">
+				<h2>
+					<a href="" target="_blank">论坛精华</a>
+                </h2>
+			</div>
+			<div class="hot-con">
+				<ul class="bbs-category">
+					<li class="item">
+						<strong class="item-tit">蜂行主题作品区</strong>
+						<div class="links">
+							<a href="" target="_blank">蜂行风版</a>
+							<a href="" target="_blank">AA活动</a>
+							<a href="" target="_blank">自由结伴</a>
+							<a href="" target="_blank">游记攻略</a>
+							<a href="" target="_blank">活动照片</a>
+							<a href="" target="_blank">户外装备</a>
+							<a href="" target="_blank">骑行天下</a>
+							<a href="" target="_blank">户外美食</a>
+							<a href="" target="_blank">驴行问答</a>
+							<a href="" target="_blank">专题频道</a>
+						</div>
+					</li>
+					<li class="item">
+						<strong class="item-tit">热门地方版</strong>
+						<div class="links">
+							<a href="" target="_blank">北京</a>
+							<a href="" target="_blank">河北</a>
+							<a href="" target="_blank">辽宁</a>
+							<a href="" target="_blank">江苏</a>
+							<a href="" target="_blank">河南</a>
+							<a href="" target="_blank">黑龙江</a>
+							<a href="" target="_blank">四川</a>
+							<a href="" target="_blank">江西</a>
+							<a href="" target="_blank">广东</a>
+							<a href="" target="_blank">山东</a>
+							<a href="" target="_blank">新疆</a>
+							<a href="" target="_blank">西藏</a>
+							<a href="" target="_blank">吉林</a>
+							<a href="" target="_blank">上海</a>
+							<a href="" target="_blank">安徽</a>
+						</div>
+					</li>
+					<li class="item">
+						<strong class="item-tit">热门俱乐部</strong>
+						<div class="links">
+							<a href="" target="_blank">闪客营地</a>
+							<a href="" target="_blank">上海摄协</a>
+							<a href="" target="_blank">美酒美摄</a>
+							<a href="" target="_blank">北美摄影</a>
+							<a href="" target="_blank">足迹C营</a>
+							<a href="" target="_blank">闪客营地</a>
+							<a href="" target="_blank">上海摄协</a>
+							<a href="" target="_blank">美酒美摄</a>
+							<a href="" target="_blank">北美摄影</a>
+							<a href="" target="_blank">足迹C营</a>
+						</div>
+					</li>
+				</ul>
+				<div class="hc-pic-list">
+					<div class="hc-pic-L fl">
+						<div class="picBox">
+							<a href="" target="_blank">
+								<img src="img/bbspic1.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">执着的追星人&nbsp;&nbsp;浪漫迷人的金山岭星空</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						</div>
+					</div>						
+					<div class="hc-pic-R fr">
+						<ul class="pic-list">
+						  <li class="pic-item">
+							<a href="" target="_blank" class="pic">
+								<img src="img/bbspic2.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">干净清透的越南风光</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						  </li>
+						  <li class="pic-item">
+							<a href="" target="_blank" class="pic">
+								<img src="img/bbspic2.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">干净清透的越南风光</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						  </li>
+						  <li class="pic-item">
+							<a href="" target="_blank" class="pic">
+								<img src="img/bbspic2.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">干净清透的越南风光</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						  </li>
+						  <li class="pic-item">
+							<a href="" target="_blank" class="pic">
+								<img src="img/bbspic2.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">干净清透的越南风光</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						  </li>
+						  <li class="pic-item">
+							<a href="" target="_blank" class="pic">
+								<img src="img/bbspic2.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">干净清透的越南风光</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						  </li>
+						  <li class="pic-item">
+							<a href="" target="_blank" class="pic">
+								<img src="img/bbspic2.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">干净清透的越南风光</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						  </li>
+						  <li class="pic-item">
+							<a href="" target="_blank" class="pic">
+								<img src="img/bbspic2.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">干净清透的越南风光</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						  </li>
+						  <li class="pic-item">
+							<a href="" target="_blank" class="pic">
+								<img src="img/bbspic2.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">干净清透的越南风光</a>
+								<span class="picBoxHoverBg"></span>
+							</span>
+						  </li>
+					    </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--论坛精华 end-->
+		<!--户外装备 start-->
+		<div class="row">
+			<div class="publi-tit">
+				<h2>
+					<a href="" target="_blank">户外装备</a>
+                </h2>
+			</div>
+			<div class="hot-con">
+				<div class="equi">
+					<ul>
+						<li>
+							<a href="" target="_blank">
+								<img src="img/equ.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">NBA全明星签名款时尚运动偏光太阳镜 </a>
+							</span>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="img/equ.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">NBA全明星签名款时尚运动偏光太阳镜 </a>
+							</span>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="img/equ.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">NBA全明星签名款时尚运动偏光太阳镜 </a>
+							</span>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="img/equ.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">NBA全明星签名款时尚运动偏光太阳镜 </a>
+							</span>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="img/equ.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">NBA全明星签名款时尚运动偏光太阳镜 </a>
+							</span>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="img/equ.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">NBA全明星签名款时尚运动偏光太阳镜 </a>
+							</span>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="img/equ.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">NBA全明星签名款时尚运动偏光太阳镜 </a>
+							</span>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="img/equ.jpg" alt="">
+							</a>
+							<span class="picBoxBg">
+								<a href="" target="_blank">NBA全明星签名款时尚运动偏光太阳镜 </a>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--户外装备 end-->
+		<!--美图赏析 start-->
+		<div class="row mt20">
+			<div class="publi-tit">
+				<h2>
+					<a href="" target="_blank">美团赏析</a>
+                </h2>
+			</div>
+			<div class="hot-con">
+				<div class="meitu">
+					<ul class="meitu-item">
+						<li class="list-item">
+							<div class="inner">
+								<div class="left">
+								  <a href="" target="_blank">
+								    <img src="img/bbspic1.jpg" alt="">
+							      </a>
+							    </div>
+							    <div class="right">
+								  <a href="" target="_blank">
+								    <img src="img/bbspic1.jpg" alt="">
+							      </a>
+							    </div>
+							</div>
+						</li>
+						<li class="list-item">
+							<div class="inner">
+								<div class="left">
+								  <a href="" target="_blank">
+								    <img src="img/meitu2.jpg" alt="">
+							      </a>
+							    </div>
+							    <div class="right">
+								  <a href="" target="_blank">
+								    <img  src="img/meitu2.jpg" alt="">
+							      </a>
+							    </div>
+							</div>
+						</li>
+						<li class="list-item">
+							<div class="inner">
+								<div class="left">
+								  <a href="" target="_blank">
+								    <img src="img/metu3.jpg" alt="">
+							      </a>
+							    </div>
+							    <div class="right">
+								  <a href="" target="_blank">
+								    <img  src="img/metu3.jpg" alt="">
+							      </a>
+							    </div>
+							</div>
+						</li>
+						<li class="list-item">
+							<div class="inner">
+								<div class="left">
+								  <a href="" target="_blank">
+								    <img src="img/meitu4.jpg" alt="">
+							      </a>
+							    </div>
+							    <div class="right">
+								  <a href="" target="_blank">
+								    <img  src="img/meitu4.jpg" alt="">
+							      </a>
+							    </div>
+							</div>
+						</li>
+						<li class="list-item">
+							<div class="inner">
+								<div class="left">
+								  <a href="" target="_blank">
+								    <img src="img/bbspic1.jpg" alt="">
+							      </a>
+							    </div>
+							    <div class="right">
+								  <a href="" target="_blank">
+								    <img  src="img/bbspic1.jpg" alt="">
+							      </a>
+							    </div>
+							</div>
+						</li>
+						<li class="list-item">
+							<div class="inner">
+								<div class="left">
+								  <a href="" target="_blank">
+								    <img src="img/metu3.jpg" alt="">
+							      </a>
+							    </div>
+							    <div class="right">
+								  <a href="" target="_blank">
+								    <img  src="img/metu3.jpg" alt="">
+							      </a>
+							    </div>
+							</div>
+						</li>
+						<li class="list-item">
+							<div class="inner">
+								<div class="left">
+								  <a href="" target="_blank">
+								    <img src="img/meitu4.jpg" alt="">
+							      </a>
+							    </div>
+							    <div class="right">
+								  <a href="" target="_blank">
+								    <img  src="img/meitu4.jpg" alt="">
+							      </a>
+							    </div>
+							</div>
+						</li>
+						<li class="list-item">
+							<div class="inner">
+								<div class="left">
+								  <a href="" target="_blank">
+								    <img src="img/metu3.jpg" alt="">
+							      </a>
+							    </div>
+							    <div class="right">
+								  <a href="" target="_blank">
+								    <img  src="img/metu3.jpg" alt="">
+							      </a>
+							    </div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--美图赏析 end-->
+		<!--友情链接 start-->
+		<div class="footer mt20">
+          <div class="friendlink">
+            <div class="tab02 tab02-border">
+              <span class="on" href="">友情链接</span>
+             </div>
+             <div class="tab02-con">
+               <ul id="tab-01">
+                 <li>
+                   <a href="" target="_blank">赛迪网</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                   <a href="" target="_blank">IT之家</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">房产</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">西陆军事</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">天气预报</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">电子商务</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">大豆网</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">亿智蘑茹</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">豆丁网</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                 <a href="" target="_blank">前瞻网</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">家具网</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">战略网</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">新浪汽车</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">二手车市场</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">91门户</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">中国电动网</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">旅游网</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">环球科技</a>
+                 </li>
+                 <li class="grey">|</li>
+                 <li>
+                  <a href="" target="_blank">上海车展</a>
+                 </li>
+          </ul>
+        </div>
+      </div>
+		<!--友情链接 end-->
+		<script type="text/javascript" src="js/new_file.js"></script>
+	</body>
+</html>
